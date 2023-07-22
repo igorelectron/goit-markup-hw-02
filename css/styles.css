@@ -4,6 +4,8 @@
     --slate: #434455;
     --white: #FFF;
     --cloud: #F4F4FD;
+    --cornflower: #E7E9FC;
+    --ocean: #404BBF;
 }
 
 body {
@@ -88,8 +90,8 @@ body {
     visibility: hidden;
 }
 
-.principles h3, 
-.team h3{
+.name-of-someone, 
+.name-of-something{
     color: var(--navyblue, #2E2F42);
     font-family: "Roboto", sans-serif;
     font-size: 20px;
@@ -98,8 +100,8 @@ body {
     letter-spacing: 0.02em;
 }
 
-.principles p,
-.team p{
+.description-of-someone, 
+.description-of-something{
     color: var(--slate);
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -150,4 +152,26 @@ footer{
     line-height: 21px;
     letter-spacing: 0.0216em;
     text-transform: uppercase;
+}
+
+.hero-button-portfolio{
+    color: var(--iris);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    background: var(--cornflower);
+}
+.hero-button-portfolio:hover,
+.hero-button-portfolio:focus{
+    color: var(--white);
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    background-color: var(--ocean);
+    cursor: pointer;
 }
